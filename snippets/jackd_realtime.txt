@@ -1,0 +1,15 @@
+1.Create the file:
+
+$ sudo gedit /etc/security/limits.d/99-realtime.conf
+
+2.Put this lines and save:
+
+@realtime - rtprio	99
+@realtime - memlock	unlimited 
+
+3.Run these commands:
+
+$ sudo groupadd realtime
+$ sudo usermod -a -G realtime yourUserID
+
+4.Reboot

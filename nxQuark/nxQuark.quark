@@ -1,0 +1,10 @@
+(
+// required:
+\name: "nxQuark",
+\path: "nxQuark",
+\summary: "Semideterministic pseudo-ugens",
+\author: "Miquel Parera Jaques",
+// optional:
+\version: 2016.12,
+\since: "2013"
+)

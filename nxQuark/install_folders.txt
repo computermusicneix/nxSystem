@@ -1,0 +1,2 @@
+classes -> usr/.local/share/SuperCollider
+HelpSource -> /usr/share/SuperCollider/HelpSource/(Guides and Classes)
