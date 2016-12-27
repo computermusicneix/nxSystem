@@ -1,0 +1,5 @@
+#!/bin/bash
+
+`for x in *.wav;do flac --best $x;done;`
+
+`for x in *.wav;do lame -b 320 $x;done;`

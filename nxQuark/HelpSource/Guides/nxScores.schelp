@@ -3,5 +3,6 @@ summary:: A Collection of LiveCoding Scores.
 categories:: Quarks, Libraries>JITLib
 
 list::
+##link::nx001_Score::
 ##link::nx501_Score::
 ::

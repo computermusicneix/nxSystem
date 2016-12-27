@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# variables
+
+TITLE1=$1
+
+mkdir avi
+
+ORDER="ffmpeg -i "$TITLE1".wav -i "$TITLE1".avi -acodec copy -vcodec copy avi/"$TITLE1".avi"
+$ORDER
